@@ -1,0 +1,2 @@
+
+python3 ../../src/veribin.py --original_path original/program_c.gcc.vuln --patched_path patched/program_c.gcc.patched  --func_addr_original 0x403010 --func_addr_patched 0x403010 --config_path config/config.json --use_ida True --interactive True --debug False |& tee verify_amp_challenge_05.log

@@ -1,0 +1,30 @@
+{
+  "unique_strings": [
+    "_ZNVSt3__113__atomic_baseIPNSt12experimental15fundamentals_v13pmr15mem",
+    "_ZNSt3__113__atomic_baseIPNSt12experimental15fundamentals_v13pmr15memo",
+    "_ZNVKSt3__113__atomic_baseIPNSt12experimental15fundamentals_v13pmr15me",
+    "_ZNKSt3__113__atomic_baseIPNSt12experimental15fundamentals_v13pmr15mem",
+    "clang version 7.0.0-3~ubuntu0.18.04.1 (tags/RELEASE_700/final)",
+    "/usr/include/x86_64-linux-gnu/bits/types",
+    "./build-llvm/lib/clang/7.0.0/include",
+    "_Z7strpbrkUa9enable_ifIXLb1EEEPcPKc",
+    "_Z6strstrUa9enable_ifIXLb1EEEPcPKc",
+    "_Z6memchrUa9enable_ifIXLb1EEEPvim",
+    "~__new_delete_memory_resource_imp",
+    "./libcxx/include/experimental",
+    "~__null_memory_resource_imp",
+    "__clang_max_align_nonce1",
+    "__is_overaligned_for_new",
+    "compare_exchange_strong",
+    "long long unsigned int",
+    "__stddef_max_align_t.h",
+    "memory_order_acq_rel",
+    ".rela.init_array.101"
+  ],
+  "arch": "amd64",
+  "platform": "linux",
+  "compiler_version": "7",
+  "compiler": "clang++",
+  "os": "ubuntu",
+  "os_version": "18.04"
+}

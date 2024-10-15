@@ -1,0 +1,30 @@
+{
+  "unique_strings": [
+    "failed to determine attributes for the specified path",
+    "the specified attribute path is invalid",
+    "clock_gettime(CLOCK_REALTIME) failed",
+    "filesystem error: %s [%s] [%s]",
+    "attempting recursion into \"%s\"",
+    "path \"%s\" is not a directory",
+    "cannot access path \"%s\"",
+    "call to getcwd failed",
+    "at root \"%s\"",
+    "UAWAVAUATSPM",
+    "8[A\\A]A^A_]",
+    "h[A\\A]A^A_]",
+    "H[A\\A]A^A_]",
+    "G [A\\A]A^A_",
+    "permissions",
+    "X[A\\A]A^A_]",
+    "posix_stat",
+    "D$8H;D$@s$",
+    "AWAVAUATSI",
+    "[A\\A]A^A_]"
+  ],
+  "arch": "amd64",
+  "platform": "linux",
+  "compiler_version": "7",
+  "compiler": "clang++",
+  "os": "ubuntu",
+  "os_version": "18.04"
+}

@@ -3,7 +3,6 @@
 This repository contains artifacts for the paper:
 [VeriBin: Adaptive Verification of Patches at the Binary Level](https://github.com/purseclab/VeriBin/blob/main/VeriBin.pdf) accepted at the Network and Distributed System Security Symposium (NDSS 25)
 
-
 ## Citing this work
 
 ```
@@ -16,4 +15,17 @@ This repository contains artifacts for the paper:
 ```
 
 ## Directory Explanation
-The `paper_experiments` folder contains detailed tables showcasing the results from the experiments conducted in the paper.
+- `paper_experiments`: contains detailed tables showcasing the results from the experiments conducted in the paper.
+- `examples`: example usage cases of VeriBin.
+- `src`: source code of VeriBin.
+
+
+## Installation
+We recommand using docker to run VeriBin.
+```
+docker build -t veribin .
+docker run --rm -it veribin
+```
+
+## Usage
+You can find usage examples [here](examples).
