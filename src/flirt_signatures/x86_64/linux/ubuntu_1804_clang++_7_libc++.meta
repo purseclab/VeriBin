@@ -1,0 +1,30 @@
+{
+  "unique_strings": [
+    "_ZNSt3__116allocator_traitsINS_18__hidden_allocatorINS_4pairIPNS_18con",
+    "_ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7compa",
+    "mersenne_twister_engine<unsigned long, 32, 624, 397, 31, 2567483615, 1",
+    "_ZNVSt3__113__atomic_baseIiLb0EE23compare_exchange_strongERiiNS_12memo",
+    "__find_first_of_ce<const wchar_t *, const wchar_t *, bool (*)(wchar_t,",
+    "__libcpp_relaxed_store<volatile unsigned long, unsigned long>",
+    "_ZNVKSt3__113__atomic_baseIiLb0EE4loadENS_12memory_orderE",
+    "__pointer_type<unsigned char, void (*)(void *), false>",
+    "__compressed_pair<unsigned char *, void (*)(void *)>",
+    "lower_bound<const unsigned int *, unsigned long>",
+    "__add_lvalue_reference_impl<unsigned char, true>",
+    "__num_get_unsigned_integral<unsigned long long>",
+    "__less<unsigned long long, unsigned long long>",
+    "__apply_cv<long, unsigned long, false, false>",
+    "__unique_ptr_deleter_sfinae<void (*)(void *)>",
+    "operator==<const wchar_t *, const wchar_t *>",
+    "unary_function<const void *, unsigned long>",
+    "unique_ptr<unsigned char, void (*)(void *)>",
+    "codecvt_byname<char16_t, char, __mbstate_t>",
+    "conditional<false, long long *, long long>"
+  ],
+  "arch": "amd64",
+  "platform": "linux",
+  "compiler_version": "7",
+  "compiler": "clang++",
+  "os": "ubuntu",
+  "os_version": "18.04"
+}

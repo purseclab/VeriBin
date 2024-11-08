@@ -1,0 +1,16 @@
+{
+  "unique_strings": [
+    "Using 'dlmopen' in statically linked applications requires at runtime ",
+    ".note.GNU-stack",
+    ".ARM.attributes",
+    ".rel.text",
+    ".shstrtab",
+    ""
+  ],
+  "arch": "armhf",
+  "platform": "linux",
+  "compiler_version": "8",
+  "compiler": "gcc",
+  "os": "debian",
+  "os_version": "10.3"
+}
