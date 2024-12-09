@@ -1,0 +1,18 @@
+{
+  "unique_strings": [
+    "A newer kernel is required to run this binary. (__kernel_cmpxchg64 hel",
+    "F%h\"FchQFE",
+    "@\\@,@\\@!F",
+    "F,h*F9F F",
+    "F+h*F9F F",
+    "F#h\"FehQF",
+    "pGpGpGA2",
+    "&F/F0F9F"
+  ],
+  "arch": "armel",
+  "platform": "linux",
+  "compiler_version": "8",
+  "compiler": "gcc",
+  "os": "debian",
+  "os_version": "10.3"
+}

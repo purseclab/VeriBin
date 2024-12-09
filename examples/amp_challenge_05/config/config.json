@@ -1,0 +1,116 @@
+{
+  "symbol_table": {
+    "original": {
+      "0x402ff0": "handleErrors",
+      "0x403010": "encrypt",
+      "0x409780": "EVP_des_ede3_cbc",
+      "0x4098c0": "EVP_CIPHER_CTX_new",
+      "0x4098d4": "EVP_CIPHER_CTX_free",
+      "0x409c50": "EVP_EncryptUpdate",
+      "0x409c90": "EVP_EncryptFinal_ex",
+      "0x40a8b0": "EVP_EncryptInit_ex"
+    },
+    "patched": {
+      "0x402ff0": "handleErrors",
+      "0x403010": "encrypt",
+      "0x40b2f0": "EVP_aes_256_cbc",
+      "0x40b520": "EVP_CIPHER_CTX_new",
+      "0x40b534": "EVP_CIPHER_CTX_free",
+      "0x40b8b0": "EVP_EncryptUpdate",
+      "0x40b8f0": "EVP_EncryptFinal_ex",
+      "0x40c510": "EVP_EncryptInit_ex"
+    }
+  },
+  "func_info_map": {
+    "handleErrors": {
+      "num_of_args": 0,
+      "return_value_used": false,
+      "ida_func_size": "28",
+      "angr_func_size": "28"
+    },
+    "encrypt": {
+      "num_of_args": 5,
+      "output_args_index": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "return_value_used": true,
+      "ida_func_size": "196",
+      "angr_func_size": "196"
+    },
+    "EVP_des_ede3_cbc": {
+      "num_of_args": 0,
+      "return_value_used": true,
+      "ida_func_size": "16",
+      "angr_func_size": "16"
+    },
+    "EVP_CIPHER_CTX_new": {
+      "num_of_args": 0,
+      "return_value_used": true,
+      "ida_func_size": "20",
+      "angr_func_size": "20"
+    },
+    "EVP_CIPHER_CTX_free": {
+      "num_of_args": 1,
+      "output_args_index": [
+        0
+      ],
+      "return_value_used": true,
+      "ida_func_size": "48",
+      "angr_func_size": "48"
+    },
+    "EVP_EncryptUpdate": {
+      "num_of_args": 5,
+      "output_args_index": [
+        0,
+        2
+      ],
+      "return_value_used": true,
+      "ida_func_size": "60",
+      "angr_func_size": "60"
+    },
+    "EVP_EncryptFinal_ex": {
+      "num_of_args": 3,
+      "output_args_index": [
+        0,
+        2
+      ],
+      "return_value_used": true,
+      "ida_func_size": "400",
+      "angr_func_size": "400"
+    },
+    "EVP_EncryptInit_ex": {
+      "num_of_args": 5,
+      "output_args_index": [
+        0
+      ],
+      "return_value_used": true,
+      "ida_func_size": "8",
+      "angr_func_size": "8"
+    },
+    "EVP_aes_256_cbc": {
+      "num_of_args": 0,
+      "return_value_used": true,
+      "ida_func_size": "16",
+      "angr_func_size": "16"
+    }
+  },
+  "matching_functions": {
+    "0x402ff0": "0x402ff0",
+    "0x403010": "0x403010",
+    "0x409780": "0x45d2b0",
+    "0x4098c0": "0x40b520",
+    "0x4098d4": "0x40b534",
+    "0x409c50": "0x40b8b0",
+    "0x409c90": "0x40b8f0",
+    "0x40a8b0": "0x40c510",
+    "0x4557b0": "0x40b2f0"
+  },
+  "exit_edges": {
+    "original": [],
+    "patched": []
+  },
+  "invalid_ret_values": []
+}
