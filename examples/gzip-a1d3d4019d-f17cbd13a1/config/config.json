@@ -1,0 +1,49 @@
+{
+    "symbol_table": {
+        "original": {
+            "0x405810": "treat_file",
+            "0x404210": "treat_stdin",
+            "0x404590": "treat_file_0"
+        },
+        "patched": {
+            "0x405810": "treat_file",
+            "0x404210": "treat_stdin",
+            "0x404590": "treat_file_0"
+        }
+    },
+    "func_info_map": {
+        "treat_file": {
+            "num_of_args": 1,
+            "output_args_index": [
+                0
+            ],
+            "is_variadic": false,
+            "return_value_used": false,
+            "ida_func_size": "37",
+            "angr_func_size": "36"
+        },
+        "treat_stdin": {
+            "num_of_args": 0,
+            "output_args_index": [],
+            "is_variadic": false,
+            "return_value_used": false,
+            "ida_func_size": "759",
+            "angr_func_size": "747"
+        },
+        "treat_file_0": {
+            "num_of_args": 1,
+            "output_args_index": [
+                0
+            ],
+            "is_variadic": false,
+            "return_value_used": false,
+            "ida_func_size": "4724",
+            "angr_func_size": null
+        }
+    },
+    "matching_functions": {
+        "0x404210": "0x404210",
+        "0x404590": "0x404590",
+        "0x405810": "0x405810"
+    }
+}

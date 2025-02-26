@@ -1,0 +1,11 @@
+--- gzip-src/gzip.c	2014-12-27 00:51:16.000000000 -0500
++++ gzip.c	2020-07-31 11:13:56.864510536 -0400
+@@ -697,6 +697,8 @@
+ local void treat_file(iname)
+     char *iname;
+ {
++    //prophet generated patch
++    ifd = (0);
+     /* Accept "-" as synonym for stdin */
+     if (strequ(iname, "-")) {
+ 	int cflag = to_stdout;

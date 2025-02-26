@@ -1,0 +1,60 @@
+{
+    "symbol_table": {
+        "original": {
+            "0x4144d4": "sub_4144d4"
+        },
+        "patched": {
+            "0x4047f0": "sub_4047F0",
+            "0x404140": "__stack_chk_fail",
+            "0x406ff4": "sub_406ff4"
+        }
+    },
+    "func_info_map": {
+        "sub_4047F0": {
+            "num_of_args": 6,
+            "output_args_index": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "is_variadic": false,
+            "return_value_used": true,
+            "ida_func_size": "96",
+            "angr_func_size": null
+        },
+        "__stack_chk_fail": {
+            "num_of_args": 0,
+            "output_args_index": [],
+            "is_variadic": false,
+            "return_value_used": false,
+            "ida_func_size": "6",
+            "angr_func_size": "6"
+        },
+        "sub_4144d4": {
+            "num_of_args": 4,
+            "output_args_index": [],
+            "is_variadic": false,
+            "return_value_used": true,
+            "ida_func_size": null,
+            "angr_func_size": "44"
+        },
+        "sub_406ff4": {
+            "num_of_args": 0,
+            "output_args_index": [],
+            "is_variadic": false,
+            "return_value_used": true,
+            "ida_func_size": null,
+            "angr_func_size": "110"
+        },
+        "sub_4047f0": {
+            "num_of_args": 6,
+            "output_args_index": [],
+            "is_variadic": false,
+            "return_value_used": true,
+            "ida_func_size": null,
+            "angr_func_size": "96"
+        }
+    },
+    "matching_functions": {}
+}

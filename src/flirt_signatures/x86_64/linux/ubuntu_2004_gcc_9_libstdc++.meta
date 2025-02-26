@@ -1,0 +1,30 @@
+{
+  "unique_strings": [
+    "attempt to subscript a %1.state; iterator %2; step from its current po",
+    "function requires a valid iterator range (%2.name;, %3.name;), \"%2.nam",
+    "elements in iterator range [%1.name;, %2.name;) are not partitioned by",
+    "not enough space for format expansion (Please submit full bug report a",
+    "splice destination %1.name; occurs within source range [%2.name;, %3.n",
+    "comparison doesn't meet irreflexive requirements, assert(!(a < a))",
+    "non-dereferenceable recursive directory iterator cannot pop",
+    "*NSt13__facet_shims12_GLOBAL__N_115moneypunct_shimIcLb1EEE",
+    "%s: __pos (which is %zu) > this->size() (which is %zu)",
+    "cannot advance non-dereferenceable directory iterator",
+    "recursive directory iterator cannot open directory",
+    "terminate called after throwing an instance of '",
+    "dereferenceable (start-of-reverse-sequence)",
+    "*N12_GLOBAL__N_122generic_error_categoryE",
+    "directory iterator cannot open directory",
+    "*NSt3pmr12_GLOBAL__N_112newdel_res_tE",
+    "-+xX0123456789abcdef0123456789ABCDEF",
+    "Objects involved in the operation:",
+    "Cannot convert character sequence",
+    "random_device could not be read"
+  ],
+  "arch": "amd64",
+  "platform": "linux",
+  "compiler_version": "9",
+  "compiler": "gcc",
+  "os": "ubuntu",
+  "os_version": "20.04"
+}

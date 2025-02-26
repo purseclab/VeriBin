@@ -1,0 +1,1 @@
+python3 ../../src/preprocessor/generate_config_for_single_file.py --original_path original/liblzma.so.5.5.99 --patched_path patched/liblzma.so.5.6.0  --func_addr_original 0x4144d4 --func_addr_patched 0x406ff4 --version ida,bindiff,angr --out_dir config --force_run True

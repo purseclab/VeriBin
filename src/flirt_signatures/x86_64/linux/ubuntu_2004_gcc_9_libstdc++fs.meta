@@ -1,0 +1,30 @@
+{
+  "unique_strings": [
+    "non-dereferenceable recursive directory iterator cannot pop",
+    "%s: __pos (which is %zu) > this->size() (which is %zu)",
+    "cannot advance non-dereferenceable directory iterator",
+    "recursive directory iterator cannot open directory",
+    "directory iterator cannot open directory",
+    "Cannot convert character sequence",
+    "filesystem error: ",
+    "8[]A\\A]A^A_",
+    "H[]A\\A]A^A_",
+    "([]A\\A]A^A_",
+    "h[]A\\A]A^A_",
+    "AWAVAUATUSH",
+    "X[]A\\A]A^A_",
+    "|$`H9|$(t H",
+    "T$.8T$/t+M",
+    "C0[]A\\A]A^",
+    "D$ H+D$pH)",
+    "[A\\A]A^A_]",
+    "T$&8T$'t+L",
+    "l$(I+l$ E1"
+  ],
+  "arch": "amd64",
+  "platform": "linux",
+  "compiler_version": "9",
+  "compiler": "gcc",
+  "os": "ubuntu",
+  "os_version": "20.04"
+}

@@ -1,0 +1,1 @@
+python3 ../../src/preprocessor/generate_config_for_single_file.py --original_path original/gzip --patched_path patched/gzip  --func_addr_original 0x405810 --func_addr_patched 0x405810 --version ida,bindiff,angr --out_dir config --force_run True

@@ -1,0 +1,30 @@
+{
+  "unique_strings": [
+    "terminate called after throwing an instance of '",
+    "deleted virtual method called",
+    "global constructors keyed to ",
+    "covariant return thunk to ",
+    "non-transaction clone for ",
+    "pure virtual method called",
+    "TLS wrapper function for ",
+    "construction vtable for ",
+    "TLS init function for ",
+    "transaction clone for ",
+    "(anonymous namespace)",
+    "reference temporary #",
+    "non-virtual thunk to ",
+    "guard variable for ",
+    "8@%rdx 8@-80(%rbx)",
+    "typeinfo name for ",
+    "unsigned long long",
+    "decltype(nullptr)",
+    "hidden alias for ",
+    " transaction_safe"
+  ],
+  "arch": "amd64",
+  "platform": "linux",
+  "compiler_version": "8",
+  "compiler": "gcc",
+  "os": "ubuntu",
+  "os_version": "18.04"
+}
